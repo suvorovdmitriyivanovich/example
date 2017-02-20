@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Examle</string>
+
+    <string name="text_again_exit">Щоб закрити, будь ласка натиснить кнопку \'повернутися\' ще раз…</string>
+
+    <string name="employee_list">Список співробітників</string>
+    <string name="add_employee">Додати співробітника</string>
+    <string name="edit_employee">Редагувати співробітника</string>
+
+    <string name="save_text">Зберегти</string>
+
+    <string name="error_name">Введіть будь ласка ім\'я</string>
+
+    <string name="delete">Видалити</string>
+
+    <string name="hint_name">Ім\'я</string>
+    <string name="hint_last_name">Прізвище</string>
+</resources>

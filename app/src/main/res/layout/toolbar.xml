@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:background="@color/toolbarHeader"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:layout_height="56dp"
+    android:minHeight="0dp"
+    app:contentInsetStart="0dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <FrameLayout
+            android:background="@color/toolbarHeader"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="?attr/actionBarSize"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
+                android:maxEms="14"
+                android:lines="1"
+                android:singleLine="true"
+                android:layout_marginRight="?attr/actionBarSize"
+                android:text="@string/employee_list" />
+
+            <RelativeLayout
+                android:id="@+id/add_button"
+                android:layout_gravity="right"
+                android:background="@drawable/selector_toolbar"
+                android:layout_width="56dp"
+                android:layout_height="?attr/actionBarSize">
+
+                <ImageView
+                    android:src="@drawable/add_icon"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/add_ico" />
+            </RelativeLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>
