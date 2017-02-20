@@ -1,4 +1,4 @@
-package com.example.examle.db;
+package com.example.example.db;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.examle.managers.DateManager;
-import com.example.examle.objects.Employee;
+import com.example.example.managers.DateManager;
+import com.example.example.objects.Employee;
 
 import java.util.ArrayList;
 import java.util.Date;

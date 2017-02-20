@@ -1,6 +1,6 @@
-package com.example.examle.objects;
+package com.example.example.objects;
 
-import com.example.examle.managers.DateManager;
+import com.example.example.managers.DateManager;
 
 import java.util.Calendar;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.example.examle.adapters;
+package com.example.example.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.examle.objects.Employee;
+import com.example.example.objects.Employee;
 import com.example.examle.R;
 
 import java.util.ArrayList;

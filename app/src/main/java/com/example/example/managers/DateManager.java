@@ -1,4 +1,4 @@
-package com.example.examle.managers;
+package com.example.example.managers;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package com.example.examle.activities;
+package com.example.example.activities;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
@@ -16,9 +16,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.example.examle.R;
-import com.example.examle.db.DBHelper;
-import com.example.examle.logic.Environment;
-import com.example.examle.objects.Employee;
+import com.example.example.db.DBHelper;
+import com.example.example.logic.Environment;
+import com.example.example.objects.Employee;
 
 import java.util.Calendar;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.example.examle.activities;
+package com.example.example.activities;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -13,15 +13,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.examle.R;
-import com.example.examle.adapters.ClickEmployee;
-import com.example.examle.adapters.CustomAdapter;
-import com.example.examle.db.DBHelper;
-import com.example.examle.logic.Example;
-import com.example.examle.objects.Employee;
+import com.example.example.adapters.ClickEmployee;
+import com.example.example.adapters.CustomAdapter;
+import com.example.example.db.DBHelper;
+import com.example.example.logic.Environment;
+import com.example.example.logic.Example;
+import com.example.example.objects.Employee;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements ClickEmployee{
+public class MainActivity extends AppCompatActivity implements ClickEmployee {
 
     private static long back_pressed;
 
@@ -88,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements ClickEmployee{
     @Override
     public void onClickEmployee(Employee employee) {
         Intent intent = new Intent(MainActivity.this, EmployeeActivity.class);
-        intent.putExtra(com.example.examle.logic.Environment.ID, employee.getId());
+        intent.putExtra(Environment.ID, employee.getId());
         startActivity(intent);
     }
 

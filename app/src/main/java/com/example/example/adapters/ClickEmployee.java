@@ -1,6 +1,6 @@
-package com.example.examle.adapters;
+package com.example.example.adapters;
 
-import com.example.examle.objects.Employee;
+import com.example.example.objects.Employee;
 
 public interface ClickEmployee {
     public void onClickEmployee(Employee employee);
